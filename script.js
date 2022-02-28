@@ -3,7 +3,7 @@ var generateBtn = document.querySelector("#generate");
 const charactersLowercase = "abcdefghijklmnopqrstuvwxyz";
 const charactersUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const charactersNumbers = "1234567890";
-const charactersSpecial = "?!@#$%^&*()<>{}";
+const charactersSpecial = "?!@#$%^&*()<>{}~|_-.:;+=,";
 
 // Write password to the #password input
 function writePassword() {
