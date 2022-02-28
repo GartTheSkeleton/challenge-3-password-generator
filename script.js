@@ -14,8 +14,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   //write the password to the text area
   passwordText.value = password;
-  //alert the user that their new password has been generated
-  window.alert("Your password has been generated. Enjoy!");
+
 }
 
 function generatePassword() {
